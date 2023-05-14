@@ -5,6 +5,7 @@ import ShopAll from "./pages/ShopAll";
 import ItemDetails from "./pages/ItemDetails";
 import AboutMe from "./pages/AboutMe";
 import Navbar from "./components/Navbar";
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/shop/:id" element={<ItemDetails />}></Route>
         <Route path="/about" element={<AboutMe />}></Route>
       </Routes>
+      <Footer/>
     </div>
   );
 }

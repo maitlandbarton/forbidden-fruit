@@ -10,7 +10,7 @@ function Navbar() {
     <header className="sticky bg-blue-500 top-0 z-10 mx-auto max-w-screen">
       <section className="flex justify-around p-4">
 
-        <div className="hidden md:block">
+        <div className="hidden md:block space-x-3">
             <Link to="/about">About</Link>
             <Link to="/shop">Shop</Link>
         </div>
