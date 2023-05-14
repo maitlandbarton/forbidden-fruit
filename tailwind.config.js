@@ -7,14 +7,16 @@ module.exports = {
     extend: {
     },
     animation: {
-      rotatingText: 'circle 20s linear infinite'
+      spinningText: 'circle 20s linear infinite',
     },
 
     keyframes: {
-      rotatingText: {
-        'to': { transform: 'rotate(1turn)' }
-      } 
-    }
+      'circle': {
+        'to': {
+          transform: 'rotate(360deg)',
+        },
+      },
+    },
   },
   plugins: [],
 }
