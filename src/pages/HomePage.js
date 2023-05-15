@@ -6,9 +6,8 @@ import SpinningText from "../components/SpinningText";
 function HomePage() {
 
   return (
-    <div className="h-screen">
-      <SpinningText/>
-      <h1 className="text-slate-700 text-6xl">THIS IS THE HOME PAGE</h1>
+    <div>
+      <SpinningText className="h-screen"/>
       <HomePageBio/>
       <InstaSlideProvider>
         <InstaSlide/>
