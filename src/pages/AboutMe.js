@@ -1,5 +1,19 @@
+import image from "../images/example.jpg";
+import AboutMeBio from "../components/AboutMeBio";
+import CustomOrder from "../components/reusables/CustomOrder";
+
 function AboutMe() {
-    return <h1>this is the about me page</h1>
+  return (
+    <div>
+      <div className="h-screen">
+        <div className="flex justify-around my-auto">
+          <img src={image} className="rounded-xl w-1/3 m-5"></img>
+          <AboutMeBio />
+        </div>
+      </div>
+      <CustomOrder />
+    </div>
+  );
 }
 
 export default AboutMe;

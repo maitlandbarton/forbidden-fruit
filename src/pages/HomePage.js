@@ -2,6 +2,7 @@ import HomePageBio from "../components/HomePageBio";
 import InstaSlide from "../components/InstaSlide";
 import { InstaSlideProvider } from "../context/InstaSlideContext";
 import SpinningText from "../components/SpinningText";
+import CustomOrder from "../components/reusables/CustomOrder";
 
 function HomePage() {
 
@@ -12,8 +13,7 @@ function HomePage() {
       <InstaSlideProvider>
         <InstaSlide/>
       </InstaSlideProvider>
-      <p>Have an idea for a custom order? Please reach out!</p>
-      <a href="mailto:forbiddenfruitberlin@gmail.com">forbiddenfruitberlin@gmail.com</a>
+      <CustomOrder/>
     </div>
   );
 }
