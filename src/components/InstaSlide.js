@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { InstaSlideContext } from "../context/InstaSlideContext";
 import ReactCurvedText from 'react-curved-text';
+import peach from "../images/peach.png"
 
 const InstaSlide = () => {
   const { instaSlide } = useContext(InstaSlideContext);
@@ -8,6 +9,7 @@ const InstaSlide = () => {
   return (
     <section className="flex flex-col items-center">
       <div className="my-10 text-center">
+        
       <ReactCurvedText
             width={375}
             height={150}

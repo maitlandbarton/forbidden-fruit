@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import myImage from "../images/example.jpg";
-import grapefruit from "../images/grapefruit.png"
 
 function HomePageBio() {
   return (
