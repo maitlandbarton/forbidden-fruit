@@ -5,15 +5,16 @@ import SpinningText from "../components/SpinningText";
 import CustomOrder from "../components/reusables/CustomOrder";
 
 function HomePage() {
-
   return (
     <div>
-      <SpinningText className="h-screen"/>
-      <HomePageBio/>
+      <SpinningText className="h-screen" />
+      <HomePageBio />
       <InstaSlideProvider>
-        <InstaSlide/>
+        <div className="container mx-auto">
+          <InstaSlide />
+        </div>
       </InstaSlideProvider>
-      <CustomOrder/>
+      <CustomOrder />
     </div>
   );
 }

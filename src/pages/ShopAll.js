@@ -1,5 +1,6 @@
 import ItemGrid from "../components/ItemGrid";
 import { ItemDataProvider } from "../context/ItemDataContext";
+import CustomOrder from "../components/reusables/CustomOrder";
 
 function ShopAll() {
     return (
@@ -8,6 +9,7 @@ function ShopAll() {
             <ItemDataProvider>
             <ItemGrid/>
             </ItemDataProvider>
+            <CustomOrder/>
         </div>
     )
 }

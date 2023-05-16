@@ -1,17 +1,35 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 function HomePageBio() {
-    return (
-        <div>
-            <h1>Hi! I'm Mattie, an embroidery and textile artist based in Berlin, Germany.</h1>
-            <br/>
-            <p>I began embroidering in 2018 and immediately fell in love with the meditative and detail-oriented nature of the craft.</p>
-            <br/>
-            <img></img>
-            <p>My work combines traditional embroidery techniques & materials with not so traditional subject matter 🍊</p>
-            <Link to="/shop" className="rounded-xl bg-blue-200 p-2">Shop Now</Link>
+  return (
+    <div className="w-screen mx-auto text-center py-6 my-4 bg-teal">
+      <div className="py-10 text-white">
+        <h1 className="text-2xl">
+          Hi! I'm Mattie, an embroidery and textile artist based in Berlin,
+          Germany.
+        </h1>
+        <br />
+        <div className="w-1/2 mx-auto">
+          <p className="text-lg">
+            I began embroidering in 2018 and immediately fell in love with the
+            meditative and detail-oriented nature of the craft.
+          </p>
+          <br />
+          <img></img>
+          <p>
+            My work combines traditional embroidery techniques & materials with
+            not so traditional subject matter 🍊
+          </p>
         </div>
-    )
+      </div>
+      <Link
+        to="/shop"
+        className="rounded-xl bg-red py-2 px-4 text-white hover:bg-navy"
+      >
+        Shop Now
+      </Link>
+    </div>
+  );
 }
 
-export default HomePageBio
+export default HomePageBio;
