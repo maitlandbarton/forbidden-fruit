@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { ItemDataContext } from "../context/ItemDataContext";
+import ItemCard from "./ItemCard";
 
 const ItemGrid = () => {
     const {item} = useContext(ItemDataContext);
@@ -8,7 +9,12 @@ const ItemGrid = () => {
     return (
         <div className="grid grid-cols-4 w-screen">
             {item.map((obj) => (
-                <img src={obj.img} className="rounded-2xl w-60"></img>
+                <ItemCard
+                    key={obj.id}
+                    img={obj.img}
+                    name={obj.name}
+                    price={obj.price}
+                    id={obj.id}/>
             ))}
         </div>
     )
