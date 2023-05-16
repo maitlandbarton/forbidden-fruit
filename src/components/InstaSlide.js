@@ -27,7 +27,7 @@ const InstaSlide = () => {
       <h2 className="text-lg">@forbiddenfruitberlin</h2>
       </div>
       <div className="flex justify-center">
-        <div className="grid grid-cols-3 gap-3">
+        <div className="md:grid md:grid-cols-3 md:gap-3 flex overflow-x-auto snap-x space-x-6 md:space-x-0 mx-4">
           {instaSlide.map((insta) => (
             <img src={insta.img} className="w-60 rounded-xl"></img>
           ))}

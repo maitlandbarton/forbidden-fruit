@@ -1,8 +1,8 @@
 
 function AboutMeBio() {
   return (
-    <div className="w-1/3 p-5">
-      <p>Hi everyone! I'm Mattie and welcome to my hand embroidery page.</p>
+    <div className="w-2/5 my-auto rounded-xl ring-2 ring-lime p-5 text-center bg-teal text-white">
+      <p className="text-xl">Hi everyone! I'm Mattie and welcome to my hand embroidery page.</p>
       <br />
       <p>
         Born and raised in Augusta, Georgia, I've always been a creative at
@@ -36,7 +36,7 @@ function AboutMeBio() {
         while also making vulvas look ridiculously cute.
       </p>
       <br />
-      <p>Welcome & enjoy!</p>
+      <p className="custom-font text-2xl tracking-widest">Enjoy!</p>
     </div>
   );
 }

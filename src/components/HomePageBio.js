@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
 import myImage from "../images/example.jpg";
+import grapefruit from "../images/grapefruit.png"
 
 function HomePageBio() {
   return (
-    <div className="w-screen text-center py-6 my-4 bg-teal">
+   
+    <div className="w-screen text-center py-6 my-4  bg-teal">
       <div className="py-10 text-white flex flex-col justify-center">
         <h2 className="text-2xl">
           <span className="text-4xl custom-font text-navy">
@@ -20,7 +22,7 @@ function HomePageBio() {
             <div>
               <img
                 src={myImage}
-                className="my-8 rounded-2xl w-96"
+                className="my-8 rounded-2xl w-96 ring-4 ring-navy"
               ></img>
             </div>
             <p className="text-lg w-3/5">

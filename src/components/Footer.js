@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { a } from "react-router-dom";
 import logo from "../images/FFB-logo.png";
 
 function Footer() {
@@ -6,14 +6,14 @@ function Footer() {
     <>
       <div className="flex flex-col bg-orange py-4 text-white">
         <div className="flex justify-around">
-          <div>
-            <img src={logo} className="w-36 rounded-xl"></img>
+          <div className="my-auto">
+            <img src={logo} className="w-28 rounded-xl"></img>
           </div>
           <div className="flex flex-col">
             <h1 className="custom-font text-xl">FIND ME</h1>
-            <Link className="hover:underline hover:decoration-lime">Pinterest</Link>
-            <Link className="hover:underline hover:decoration-lime">Instagram</Link>
-            <Link className="hover:underline hover:decoration-lime">Contact</Link>
+            <a href="https://www.pinterest.de/forbiddenfruitberlin/" target="_blank" rel="noopener noreferrer" className="hover:underline hover:decoration-lime">Pinterest</a>
+            <a href="https://www.instagram.com/forbiddenfruitberlin/" target="_blank" rel="noopener noreferrer" className="hover:underline hover:decoration-lime">Instagram</a>
+            <a className="hover:underline hover:decoration-lime">Contact</a>
           </div>
         </div>
 
