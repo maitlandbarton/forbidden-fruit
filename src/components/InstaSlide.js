@@ -6,10 +6,12 @@ const InstaSlide = () => {
 
   return (
     <section className="flex flex-col items-center">
-      <h1>Follow me on Instagram!</h1>
+      <div className="my-10 text-center">
+      <h1 className="mb-5">Follow me on Instagram!</h1>
       <h2>@forbiddenfruitberlin</h2>
+      </div>
       <div className="flex justify-center">
-        <div className="border grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-3 gap-3">
           {instaSlide.map((insta) => (
             <img src={insta.img} className="w-60 rounded-xl"></img>
           ))}

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import myImage from "../images/example.jpg";
 
 function HomePageBio() {
   return (
@@ -9,13 +10,12 @@ function HomePageBio() {
           Germany.
         </h1>
         <br />
-        <div className="w-1/2 mx-auto">
+        <div className="w-1/3 mx-auto">
           <p className="text-lg">
             I began embroidering in 2018 and immediately fell in love with the
             meditative and detail-oriented nature of the craft.
           </p>
-          <br />
-          <img></img>
+          <img src={myImage} className="my-8"></img>
           <p>
             My work combines traditional embroidery techniques & materials with
             not so traditional subject matter 🍊
@@ -24,7 +24,7 @@ function HomePageBio() {
       </div>
       <Link
         to="/shop"
-        className="rounded-xl bg-red py-2 px-4 text-white hover:bg-navy"
+        className="rounded-xl hover:bg-red py-2 px-4 text-white bg-navy custom-font text-xl"
       >
         Shop Now
       </Link>

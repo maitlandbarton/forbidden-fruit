@@ -11,7 +11,6 @@ function AboutMe() {
           <AboutMeBio />
         </div>
       </div>
-      <CustomOrder />
     </div>
   );
 }
