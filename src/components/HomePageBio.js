@@ -15,8 +15,10 @@ function HomePageBio() {
             I began embroidering in 2018 and immediately fell in love with the
             meditative and detail-oriented nature of the craft.
           </p>
-          <img src={myImage} className="my-8"></img>
-          <p>
+          <div className="bg-navy rounded-2xl">
+          <img src={myImage} className="my-8 rounded-2xl p-2"></img>
+          </div>
+          <p className="text-lg">
             My work combines traditional embroidery techniques & materials with
             not so traditional subject matter 🍊
           </p>
