@@ -8,7 +8,7 @@ function ItemDescription({ id }) {
   return (
     <div className="flex w-screen justify-around pt-10">
       <div id="item-image" className="w-full p-10">
-        <img src={item[index].img} className="max-w-xl mx-auto rounded-xl h-4/5 ring-4 ring-orange"></img>
+        <img src={item[index].img} className="max-w-xl mx-auto rounded-xl h-4/5 ring-4 ring-lime"></img>
       </div>
       <div className="w-full bg-teal m-10 rounded-xl ring-4 ring-lime">
         <div className="ml-5">

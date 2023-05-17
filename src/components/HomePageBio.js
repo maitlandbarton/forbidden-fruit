@@ -21,7 +21,7 @@ function HomePageBio() {
             <div>
               <img
                 src={myImage}
-                className="my-8 rounded-2xl w-96 ring-4 ring-navy"
+                className="my-8 rounded-2xl w-96 ring-4 ring-lime"
               ></img>
             </div>
             <p className="text-lg w-3/5">

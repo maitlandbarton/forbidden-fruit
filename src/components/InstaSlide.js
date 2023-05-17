@@ -8,10 +8,12 @@ const InstaSlide = () => {
     <section className="flex flex-col items-center">
       <div className="top-3.5 text-center px-4 py-2 m-10 text-white bg-red rounded-3xl">
         <h1 className="text-3xl">Follow me on Instagram!</h1>
-        <h2 className="text-xl tracking-widest mt-5 custom-font underline decoration-orange hover:decoration-lime">@forbiddenfruitberlin</h2>
+        <div className="mt-5">
+        <a href="https://www.instagram.com/forbiddenfruitberlin/" target="_blank" rel="noopener noreferrer" className="text-xl tracking-widest custom-font underline decoration-orange hover:decoration-lime">@forbiddenfruitberlin</a>
+        </div>      
       </div>
       <div className="flex justify-center">
-        <div className="md:grid md:grid-cols-3 md:gap-3 flex overflow-x-auto snap-x space-x-6 md:space-x-0 mx-4">
+        <div className="md:grid md:grid-cols-3 md:gap-3 flex overflow-x-auto snap-x space-x-6 md:space-x-0 mx-4 ">
           {instaSlide.map((insta) => (
             <img src={insta.img} className="w-60 rounded-xl"></img>
           ))}
