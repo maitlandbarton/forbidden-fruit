@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function ItemCard({img, name, price, id}) {
     return (
-        <div>
+        <div className="hover:shadow-xl rounded-3xl hover:shadow-orange">
             <Link to={`/shop/${id}`}>
                 <div className="bg-orange rounded-3xl hover:underline hover:decoration-red">
                     <div className="h-60">

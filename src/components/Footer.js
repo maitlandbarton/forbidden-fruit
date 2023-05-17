@@ -18,7 +18,7 @@ function Footer() {
         </div>
 
         <div className="w-screen text-center">
-          <p>developed & designed by Mattie Barton</p>
+          <p>developed & designed by <a href="https://mattiebarton.netlify.app/" target="_blank" rel="noopener noreferrer" className="underline decoration-navy hover:decoration-lime">Mattie Barton</a></p>
         </div>
       </div>
     </>
