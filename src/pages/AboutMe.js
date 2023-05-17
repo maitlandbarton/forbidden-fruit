@@ -8,7 +8,7 @@ import lime from "../images/lime.png";
 function AboutMe() {
   return (
     <div style={{ backgroundImage: `url(${navyGrid})` }}>
-      <h1 className="text-center text-6xl text-orange p-10">ABOUT</h1>
+      <h1 className="text-center text-6xl text-orange p-10">AB🍊UT</h1>
       <div className="lg:h-full my-auto pb-10 px-10">
         <div className="flex lg:flex-row flex-col justify-around relative lg:ml-10 lg:m-5 max-w-9xl">
           <AboutMeBio />
