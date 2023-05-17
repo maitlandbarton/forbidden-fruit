@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { InstaSlideContext } from "../context/InstaSlideContext";
 import ReactCurvedText from 'react-curved-text';
-import peach from "../images/peach.png"
+import kiwi from "../images/kiwi.png";
 
 const InstaSlide = () => {
   const { instaSlide } = useContext(InstaSlideContext);
