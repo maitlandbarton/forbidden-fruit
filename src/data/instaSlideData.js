@@ -1,10 +1,11 @@
 import example from "../images/example.jpg";
+import coconut from "../images/coco-insta.jpg"
 
 export const instaSlideData = [
     {
         id: 1,
         alt: "photo of orange embroidery",
-        img: example,
+        img: coconut,
         link: "instagram url here"
     },
     {

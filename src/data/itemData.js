@@ -1,9 +1,10 @@
 import example from "../images/example.jpg"
+import coconut from "../images/coco-insta.jpg"
 
 export const itemData = [
     {
         id: 1,
-        img: example,
+        img: coconut,
         name: 'Citrussy - orange',
         description: 'hand embroidered fruit vulva in a 3.5in hoop',
         price: 48,
