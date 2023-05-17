@@ -8,7 +8,7 @@ const InstaSlide = () => {
 
   return (
     <section className="flex flex-col items-center">
-      <div className="my-10 text-center">
+      <div className="mt-10 mb-8 text-center">
         
       <ReactCurvedText
             width={375}
@@ -17,7 +17,7 @@ const InstaSlide = () => {
             cy={200}
             rx={150}
             ry={150}
-            startOffset={68}
+            startOffset={66}
             reversed={true}
             text="Follow me on Instagram!"
             textProps={{ style: { fontSize: 30} }}
