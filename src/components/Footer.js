@@ -6,8 +6,8 @@ function Footer() {
     <>
       <div className="flex flex-col bg-orange py-4 text-white">
         <div className="flex justify-around">
-          <div className="my-auto">
-            <img src={logo} className="w-28 rounded-xl"></img>
+          <div className="my-auto bg-navy rounded-xl">
+            <img src={logo} className="w-28"></img>
           </div>
           <div className="flex flex-col">
             <h1 className="custom-font text-xl">FIND ME</h1>

@@ -1,5 +1,15 @@
+import { useParams } from "react-router-dom";
+import { ItemDataProvider } from "../context/ItemDataContext";
+import ItemDescription from "../components/ItemDescription";
+
 function ItemDetails() {
-    return <h1>this is the item details page</h1>
+    const {id} = useParams();
+
+    return (
+        <ItemDataProvider>
+            <ItemDescription id={id}/>
+        </ItemDataProvider>
+    )
 }
 
 export default ItemDetails;

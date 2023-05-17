@@ -1,32 +1,14 @@
 import { useContext } from "react";
 import { InstaSlideContext } from "../context/InstaSlideContext";
-import ReactCurvedText from 'react-curved-text';
-import kiwi from "../images/kiwi.png";
 
 const InstaSlide = () => {
   const { instaSlide } = useContext(InstaSlideContext);
 
   return (
     <section className="flex flex-col items-center">
-      <div className="mt-10 mb-8 text-center">
-        
-      <ReactCurvedText
-            width={375}
-            height={150}
-            cx={200}
-            cy={200}
-            rx={150}
-            ry={150}
-            startOffset={66}
-            reversed={true}
-            text="Follow me on Instagram!"
-            textProps={{ style: { fontSize: 30} }}
-            textPathProps={null}
-            tspanProps={null}
-            ellipseProps={null}
-            svgProps={null}
-        />
-      <h2 className="text-lg">@forbiddenfruitberlin</h2>
+      <div className="top-3.5 text-center px-4 py-2 m-10 text-white bg-red rounded-3xl">
+        <h1 className="text-3xl">Follow me on Instagram!</h1>
+        <h2 className="text-xl tracking-widest mt-5 custom-font underline decoration-orange hover:decoration-lime">@forbiddenfruitberlin</h2>
       </div>
       <div className="flex justify-center">
         <div className="md:grid md:grid-cols-3 md:gap-3 flex overflow-x-auto snap-x space-x-6 md:space-x-0 mx-4">

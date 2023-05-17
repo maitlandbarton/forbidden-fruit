@@ -23,10 +23,7 @@ function AboutMe() {
             <div className="z-10 hidden lg:block">
               <SpinningFruit
                 placement="right-0 bottom-0"
-                ml="0"
                 mt="28"
-                mr="0"
-                mb="0"
                 image={lime}
               />
             </div>
