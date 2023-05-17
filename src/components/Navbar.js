@@ -19,7 +19,7 @@ function Navbar() {
   }
 
   return (
-    <header className="sticky top-0 z-10 mx-auto max-w-screen bg-gradient-to-b from-teal to-transparent">
+    <header className="sticky top-0 z-30 mx-auto max-w-screen bg-gradient-to-b from-teal to-transparent">
       <section className="flex justify-around p-4">
         <div className="hidden md:block space-x-3 custom-font text-xl">
           <Link
