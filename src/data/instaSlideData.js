@@ -1,16 +1,18 @@
 import example from "../images/example.jpg";
+import goldenKiwi from "../images/golden-kiwi-insta.jpg";
+import coconut from "../images/coco-insta.jpg"
 
 export const instaSlideData = [
     {
         id: 1,
         alt: "photo of orange embroidery",
-        img: example,
+        img: goldenKiwi,
         link: "instagram url here"
     },
     {
         id: 2,
         alt: "photo of orange embroidery",
-        img: example,
+        img: coconut,
         link: "instagram url here"
     },
     {
