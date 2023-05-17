@@ -4,7 +4,7 @@ import myImage from "../images/example.jpg";
 function HomePageBio() {
   return (
    
-    <div className="w-screen text-center py-6 my-4  bg-teal">
+    <div className="w-screen text-center pt-6 pb-20 my-4  bg-teal">
       <div className="py-10 text-white flex flex-col justify-center">
         <h2 className="text-2xl">
           <span className="text-4xl custom-font text-navy">
