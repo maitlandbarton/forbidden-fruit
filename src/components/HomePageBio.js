@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import myImage from "../images/example.jpg";
 import MovingFruit from "./reusables/MovingFruit";
 import kiwi from "../images/kiwi.png";
 import avocado from "../images/avocado.png";

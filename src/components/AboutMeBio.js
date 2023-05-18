@@ -1,11 +1,11 @@
 
 function AboutMeBio() {
   return (
-    <div className="w-full lg:w-2/5 my-auto rounded-xl ring-2 ring-lime p-5 text-center bg-teal text-white">
+    <div className="w-full lg:w-2/5 sm:my-auto md:my-5 rounded-xl ring-2 ring-lime p-5 text-center bg-teal text-white">
       <p className="text-xl">Hi everyone! I'm Mattie and welcome to my hand embroidery page.</p>
       <br />
       <p>
-        Born and raised in Augusta, Georgia, I've always been a creative at heart, dabbling in as many mediums as possible. So it definitely surprised my mom when I decided to pursue a business
+        Born and raised in Augusta, Georgia, I've always been a creative at heart, dabbling in as many mediums as possible while growing up. So it definitely surprised my mom when I decided to pursue a business
         degree in uni, where I had little to no creative outlet.
       </p>
       <br />
@@ -26,11 +26,11 @@ function AboutMeBio() {
       <p>
         A few years later and I have over 20 fruit designs, have
         shipped my art across the globe, created multiple embroidery guides,
-        and now here I am, making this website to keep sharing my art with you all ❤️
+        and now here I am, making this website to keep sharing my art with you all 💚
       </p>
       <br />
       <p>
-        I love being able to share the beauty of modern embroidery with everyone
+        I love getting to share the beauty of modern embroidery with everyone
         while also making vulvas look ridiculously cute.
       </p>
       <br />
