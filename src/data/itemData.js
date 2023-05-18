@@ -1,5 +1,6 @@
 import example from "../images/example.jpg"
 import coconut from "../images/coco-insta.jpg"
+import pumpkinGuide from "../images/pumpkin-guide.jpg";
 
 export const itemData = [
     {
@@ -60,7 +61,7 @@ export const itemData = [
     },
     {
         id: 8,
-        img: example,
+        img: pumpkinGuide,
         name: 'Pumpkin Embroidery Guide',
         description: 'DIGITAL DOWNLOAD: pumpkin embroidery guide',
         price: 48,
