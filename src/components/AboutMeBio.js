@@ -26,7 +26,7 @@ function AboutMeBio() {
       <p>
         A few years later and I have over 20 fruit designs, have
         shipped my art across the globe, created multiple embroidery guides,
-        and now here I am, making this website to keep selling my art to you all ❤️
+        and now here I am, making this website to keep sharing my art with you all ❤️
       </p>
       <br />
       <p>

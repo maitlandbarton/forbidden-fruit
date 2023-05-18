@@ -10,7 +10,7 @@ function ItemDescription({ id }) {
       <div id="item-image" className="w-full p-10">
         <img
           src={item[index].img}
-          className="md:max-w-xl mx-auto rounded-xl h-2/3 md:h-4/5 ring-4 ring-orange"
+          className="md:max-w-xl mx-auto rounded-xl h-auto md:h-4/5 ring-4 ring-orange"
         ></img>
       </div>
       <div className="md:w-full bg-teal m-10 rounded-xl ring-4 ring-lime">
