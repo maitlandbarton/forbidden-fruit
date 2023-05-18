@@ -1,7 +1,7 @@
 
 function AboutMeBio() {
   return (
-    <div className="w-full lg:w-2/5 sm:my-auto md:my-5 rounded-xl ring-2 ring-lime p-5 text-center bg-teal text-white">
+    <div className="w-full lg:w-1/2 sm:my-auto md:my-5 rounded-xl ring-2 ring-lime p-5 text-center bg-teal text-white">
       <p className="text-xl">Hi everyone! I'm Mattie and welcome to my hand embroidery page.</p>
       <br />
       <p>
