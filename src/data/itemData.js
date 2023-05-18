@@ -2,6 +2,9 @@ import example from "../images/example.jpg"
 import coconut from "../images/coco-insta.jpg"
 import pumpkinGuide from "../images/pumpkin-guide.jpg";
 import dragonfruitGuide from "../images/dragonfruit-guide.jpg";
+import citrusGuide from "../images/citrus-guide.jpg";
+import peachSticker from "../images/peach-sticker.jpg";
+import pomSticker from "../images/pom-sticker.jpg";
 
 export const itemData = [
     {
@@ -30,7 +33,7 @@ export const itemData = [
     },
     {
         id: 4,
-        img: example,
+        img: peachSticker,
         name: 'Peach Sticker',
         description: 'vinyl peach vulva sticker, clear outline',
         price: 48,
@@ -46,7 +49,7 @@ export const itemData = [
     },
     {
         id: 6,
-        img: example,
+        img: pomSticker,
         name: 'Pomegranate Sticker',
         description: 'vinyl pomegranate vulva sticker, clear outline',
         price: 48,
@@ -54,7 +57,7 @@ export const itemData = [
     },
     {
         id: 7,
-        img: example,
+        img: citrusGuide,
         name: 'Citrus Embroidery Guide',
         description: 'DIGITAL DOWNLOAD: 5 in 1 citrus fruit embroidery guide',
         price: 48,
