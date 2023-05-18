@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import myImage from "../images/example.jpg";
 import MovingFruit from "./reusables/MovingFruit";
 import kiwi from "../images/kiwi.png";
+import avocado from "../images/avocado.png";
 
 function HomePageBio() {
   return (
@@ -30,15 +31,17 @@ function HomePageBio() {
             My work combines traditional embroidery techniques & materials with
             not-so-traditional subject matter 🍊
           </p>
+          <div className="my-5">
           <Link
             to="/shop"
             className="rounded-xl hover:bg-red py-2 px-4 text-white bg-orange custom-font text-xl"
           >
             Shop Now
           </Link>
+          </div>
         </div>
       </div>
-      <MovingFruit direction="moveUp"/>
+      <MovingFruit direction="moveUp" image={avocado}/>
     </div>
   );
 }
