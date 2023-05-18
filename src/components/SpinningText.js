@@ -20,7 +20,7 @@ function SpinningText() {
             ></path>
           </defs>
           <text>
-            <textPath xlinkHref="#circle" className="text-60-5 font-bold">
+            <textPath xlinkHref="#circle" className="md:font-bold">
               <tspan style={{ fill: "navy" }}>
                 forbidden fruit • forbidden fruit • berlin •{" "}
               </tspan>
