@@ -45,6 +45,7 @@ function Navbar() {
         </Link>
 
         <div className="flex">
+          <Link to="/oops">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -52,6 +53,7 @@ function Navbar() {
           >
             <ShoppingBagIcon />
           </svg>
+          </Link>
           <div className="lg:hidden">
             <button
               onClick={toggleMenu}

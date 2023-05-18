@@ -6,6 +6,7 @@ import ItemDetails from "./pages/ItemDetails";
 import AboutMe from "./pages/AboutMe";
 import Navbar from "./components/Navbar";
 import Footer from './components/Footer';
+import Oops from "./pages/Oops";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/shop" element={<ShopAll />}></Route>
         <Route path="/shop/:id" element={<ItemDetails />}></Route>
         <Route path="/about" element={<AboutMe />}></Route>
+        <Route path="/oops" element={<Oops/>}></Route>
       </Routes>
       <Footer/>
     </div>

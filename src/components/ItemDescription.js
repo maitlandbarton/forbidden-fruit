@@ -19,7 +19,7 @@ function ItemDescription({ id }) {
           <h2 className="text-3xl text-white">€{item[index].price}</h2>
           <p>quantity</p>
           <p>{item[index].description}</p>
-          <p className="mx-auto p-4 bg-navy w-80 text-center text-white rounded-3xl text-xl hover:shadow-lg hover:shadow-lime hover:text-lime">
+          <p className="mx-auto p-4 bg-navy w-80 text-center text-white rounded-3xl text-xl hover:shadow-lg hover:shadow-lime">
             Add to Cart
           </p>
         </div>
