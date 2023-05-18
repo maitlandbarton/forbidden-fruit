@@ -4,10 +4,10 @@ import peach from "../images/peach.png";
 function SpinningText() {
   return (
     <div
-      className="bg-contain bg-no-repeat bg-center custom-font h-screen lg:h-full"
+      className="bg-contain bg-no-repeat bg-center custom-font section-height lg:h-full"
       style={{ backgroundImage: `url(${peach})` }}
     >
-      <div className="flex overflow-hidden animate-spinningText w-auto lg:w-1/2 mx-auto h-screen lg:h-full">
+      <div className="flex overflow-hidden animate-spinningText w-auto lg:w-1/2 mx-auto section-height lg:h-full">
         <svg viewBox="0 0 100 100" width="100%" height="100%">
           <defs>
             <path
