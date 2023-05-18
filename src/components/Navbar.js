@@ -18,6 +18,10 @@ function Navbar() {
     }
   }
 
+  function closeMenu() {
+    setShowMenu(false);
+  }
+
   return (
     <header className="sticky top-0 z-30 mx-auto max-w-screen bg-gradient-to-b from-teal to-transparent">
       <section className="flex justify-around p-4">
@@ -36,7 +40,7 @@ function Navbar() {
           </Link>
         </div>
 
-        <Link to="/" className="text-2xl text-lime font-bold custom-font">
+        <Link to="/" className="text-2xl text-lime font-bold custom-font" onClick={closeMenu}>
           FORBIDDEN FRUIT
         </Link>
 
@@ -70,7 +74,7 @@ function Navbar() {
         </div>
       </section>
       { showMenu && (
-        <MobileMenu/>
+        <MobileMenu closeMenu={closeMenu}/>
       )}
     </header>
   );
