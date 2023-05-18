@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
 import myImage from "../images/example.jpg";
+import MovingFruit from "./reusables/MovingFruit";
 
 function HomePageBio() {
   return (
    
-    <div className="w-screen text-center pt-6 pb-20 my-4  bg-teal">
+    <div className="w-screen text-center overflow-hidden bg-teal border flex">
+      <MovingFruit direction="moveDown"/>
       <div className="py-10 text-white flex flex-col justify-center">
         <h2 className="text-2xl">
           <span className="text-4xl custom-font text-navy">
@@ -26,16 +28,18 @@ function HomePageBio() {
             </div>
             <p className="text-lg w-3/5">
               My work combines traditional embroidery techniques & materials
-              with not so traditional subject matter 🍊
+              with not-so-traditional subject matter 🍊
             </p>
-        </div>
-      </div>
-      <Link
+            <Link
         to="/shop"
         className="rounded-xl hover:bg-red py-2 px-4 text-white bg-orange custom-font text-xl"
       >
         Shop Now
       </Link>
+        </div>
+        
+      </div>
+      
     </div>
   );
 }

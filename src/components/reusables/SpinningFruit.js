@@ -1,5 +1,3 @@
-import grapefruit from "../../images/grapefruit.png"
-
 function SpinningFruit({ml, mr, mt, mb, placement, image}) {
     return (
         <div>

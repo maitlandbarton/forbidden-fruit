@@ -18,16 +18,16 @@ function Footer() {
           </div>
         </div>
         <div className="flex space-x-3 w-screen justify-center lg:hidden py-4">
-          <a>
+          <a href="https://www.pinterest.de/forbiddenfruitberlin/" target="_blank" rel="noopener noreferrer">
             <img src={instagram}></img>
           </a>
-          <a>
+          <a href="https://www.instagram.com/forbiddenfruitberlin/" target="_blank" rel="noopener noreferrer">
             <img src={pinterest}></img>
           </a>
         </div>
 
         <div className="w-screen text-center">
-          <p>developed & designed by <a href="https://mattiebarton.netlify.app/" target="_blank" rel="noopener noreferrer" className="underline decoration-navy hover:decoration-lime">Mattie Barton</a></p>
+          <p>designed & developed by <a href="https://mattiebarton.netlify.app/" target="_blank" rel="noopener noreferrer" className="underline decoration-navy hover:decoration-lime">Mattie Barton</a></p>
         </div>
       </div>
     </>

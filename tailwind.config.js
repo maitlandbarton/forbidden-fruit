@@ -15,6 +15,8 @@ module.exports = {
     },
     animation: {
       spinningText: 'circle 20s linear infinite',
+      moveDown: 'down 10s linear infinite',
+      moveUp: 'up 10s linear infinite'
     },
 
     keyframes: {
@@ -26,6 +28,22 @@ module.exports = {
           transform: 'rotate(360deg)',
         },
       },
+      'down': {
+        'from': {
+          transform: 'translateY(-10%)'
+        },
+        'to': {
+          transform: 'translateY(100%)'
+        }
+      },
+      'up': {
+        'from': {
+          transform: 'translateY(100%)'
+        },
+        'to': {
+          transform: 'translateY(-20%)'
+        }
+      }
     },
   },
   plugins: [],

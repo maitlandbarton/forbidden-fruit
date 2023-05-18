@@ -4,6 +4,7 @@ import goldenKiwi from "../images/golden-kiwi-insta.jpg";
 import pomegranate from "../images/pom-insta.jpg";
 import pumpkin from "../images/pumpkin-insta.jpg";
 import cherries from "../images/cherry-insta.jpg"
+import passionfruit from "../images/passion-insta.jpg"
 
 export const instaSlideData = [
     {
@@ -39,7 +40,7 @@ export const instaSlideData = [
     {
         id: 6,
         alt: "photo of orange embroidery",
-        img: example,
+        img: passionfruit,
         link: "instagram url here"
     },
 ]
