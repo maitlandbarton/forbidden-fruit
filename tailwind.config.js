@@ -30,7 +30,7 @@ module.exports = {
       },
       'down': {
         'from': {
-          transform: 'translateY(-10%)'
+          transform: 'translateY(-20%)'
         },
         'to': {
           transform: 'translateY(100%)'

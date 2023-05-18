@@ -1,9 +1,7 @@
-import grapefruit from "../../images/grapefruit.png"
-
-function MovingFruit({ direction }) {
+function MovingFruit( {direction, image} ) {
     return (
         <div className={`animate-${direction} h-auto flex flex-col`}>
-            <img src={grapefruit} className="animate-spinningText"></img>
+            <img src={image} className="animate-spinningText px-6"></img>
         </div>
     )
 }
