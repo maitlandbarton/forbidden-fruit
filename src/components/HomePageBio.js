@@ -3,7 +3,7 @@ import myImage from "../images/example.jpg";
 import MovingFruit from "./reusables/MovingFruit";
 import kiwi from "../images/kiwi.png";
 import avocado from "../images/avocado.png";
-import SpinningFruit from "./reusables/SpinningFruit";
+import marketPic from "../images/market-pic.jpg";
 
 function HomePageBio() {
   return (
@@ -24,7 +24,7 @@ function HomePageBio() {
           </p>
           <div className="mx-10 md:mx-0">
             <img
-              src={myImage}
+              src={marketPic}
               className="my-8 rounded-2xl w-96 ring-4 ring-lime"
             ></img>
           </div>

@@ -5,8 +5,8 @@ function AboutMeBio() {
       <p className="text-xl">Hi everyone! I'm Mattie and welcome to my hand embroidery page.</p>
       <br />
       <p>
-        Born and raised in Augusta, Georgia, I've always been an artist at heart, dabbling in as many mediums as possible. So it shocked my mother when I decided to pursue a business
-        degree in uni where I had little to no creative outlet.
+        Born and raised in Augusta, Georgia, I've always been a creative at heart, dabbling in as many mediums as possible. So it definitely surprised my mom when I decided to pursue a business
+        degree in uni, where I had little to no creative outlet.
       </p>
       <br />
       <p>
