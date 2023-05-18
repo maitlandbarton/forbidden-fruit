@@ -7,7 +7,7 @@ const ItemGrid = () => {
     console.log(item);
 
     return (
-        <div className="grid lg:grid-cols-4 w-screen gap-4 px-20 md:grid-cols-3 sm:grid-cols-2">
+        <div className="grid lg:grid-cols-4 w-screen gap-4 px-5 md:px-20 md:grid-cols-3 sm:grid-cols-2">
             {item.map((obj) => (
                 <ItemCard
                     key={obj.id}

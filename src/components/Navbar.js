@@ -54,7 +54,7 @@ function Navbar() {
             <ShoppingBagIcon />
           </svg>
           </Link>
-          <div className="lg:hidden">
+          <div className="md:hidden">
             <button
               onClick={toggleMenu}
               type="button"

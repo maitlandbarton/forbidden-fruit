@@ -3,6 +3,7 @@ import myImage from "../images/example.jpg";
 import MovingFruit from "./reusables/MovingFruit";
 import kiwi from "../images/kiwi.png";
 import avocado from "../images/avocado.png";
+import SpinningFruit from "./reusables/SpinningFruit";
 
 function HomePageBio() {
   return (

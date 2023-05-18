@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { ItemDataContext } from "../context/ItemDataContext";
+import AccordionMenu from "./reusables/AccordionMenu";
 
 function ItemDescription({ id }) {
   const { item } = useContext(ItemDataContext);
@@ -28,6 +29,7 @@ function ItemDescription({ id }) {
               Add to Cart
             </p>
           </div>
+          <AccordionMenu/>
         </div>
       </div>
     </div>
