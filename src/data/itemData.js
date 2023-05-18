@@ -1,10 +1,12 @@
-import example from "../images/example.jpg"
 import coconut from "../images/coco-insta.jpg"
 import pumpkinGuide from "../images/pumpkin-guide.jpg";
 import dragonfruitGuide from "../images/dragonfruit-guide.jpg";
 import citrusGuide from "../images/citrus-guide.jpg";
 import peachSticker from "../images/peach-sticker.jpg";
 import pomSticker from "../images/pom-sticker.jpg";
+import avoSticker from "../images/avo-sticker.jpg";
+import guava from "../images/guava.jpg";
+import papaya from "../images/papaya.jpg";
 
 export const itemData = [
     {
@@ -17,7 +19,7 @@ export const itemData = [
     },
     {
         id: 2,
-        img: example,
+        img: papaya,
         name: 'Papaya Hand Embroidery',
         description: 'hand-embroidered papaya vulva in a 3.5in stained hoop',
         price: 48,
@@ -25,7 +27,7 @@ export const itemData = [
     },
     {
         id: 3,
-        img: example,
+        img: guava,
         name: 'Guava Hand Embroidery',
         description: 'hand-embroidered guava vulva in a 3.5in stained hoop',
         price: 48,
@@ -41,7 +43,7 @@ export const itemData = [
     },
     {
         id: 5,
-        img: example,
+        img: avoSticker,
         name: 'Avocado Sticker',
         description: 'vinyl avocado vulva sticker, clear outline',
         price: 48,
