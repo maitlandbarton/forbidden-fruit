@@ -8,7 +8,9 @@ import gridBg from "../images/grid.png";
 function HomePage() {
   return (
     <div style={{ backgroundImage: `url(${gridBg})` }}>
-      <SpinningText className="h-screen" />
+      <div className="w-screen">
+        <SpinningText/>
+      </div>
       <HomePageBio />
       <InstaSlideProvider>
         <div className="container mx-auto">

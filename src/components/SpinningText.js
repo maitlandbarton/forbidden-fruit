@@ -7,7 +7,7 @@ function SpinningText() {
       className="bg-contain bg-no-repeat bg-center custom-font"
       style={{ backgroundImage: `url(${peach})` }}
     >
-      <div className="flex overflow-hidden animate-spinningText w-1/2 mx-auto">
+      <div className="flex overflow-hidden animate-spinningText w-auto md:w-1/2 mx-auto">
         <svg viewBox="0 0 100 100" width="100%" height="100%">
           <defs>
             <path
