@@ -13,7 +13,7 @@ function AboutMe() {
         <div className="flex lg:flex-row flex-col justify-around relative lg:ml-10 lg:m-5 max-w-9xl">
           <AboutMeBio />
 
-          <div className="relative my-auto mx-auto lg:mx-0 md:w-2/5">
+          <div className="relative my-auto mx-auto lg:mx-0 lg:w-2/5">
             <div className="z-10 hidden lg:block">
               <SpinningFruit ml="20" image={grapefruit} />
             </div>

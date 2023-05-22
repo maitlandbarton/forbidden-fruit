@@ -7,8 +7,7 @@ import marketPic from "../images/market-pic.jpg";
 function HomePageBio() {
   return (
     <div className="w-screen text-center overflow-hidden bg-teal border flex">
-      <MovingFruit direction="moveDown" image={kiwi} />
-      <div className="pt-10 text-white flex flex-col justify-center">
+      <div className="pt-10 text-white flex flex-col justify-center mx-auto">
         <h2 className="text-2xl mx-10">
           <span className="text-3xl md:text-4xl custom-font text-navy">
             Hi! I'm Mattie,
@@ -41,7 +40,6 @@ function HomePageBio() {
           </div>
         </div>
       </div>
-      <MovingFruit direction="moveUp" image={avocado} />
     </div>
   );
 }
