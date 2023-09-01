@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { ItemDataContext } from "../context/ItemDataContext";
+import { AccordionDataProvider } from "../context/AccordionDataContext";
 import AccordionMenu from "./reusables/AccordionMenu";
 
 function ItemDescription({ id }) {
@@ -19,17 +20,19 @@ function ItemDescription({ id }) {
           <h1 className="text-5xl mt-5 text-white">{item[index].name}</h1>
           <h2 className="text-3xl text-white">€{item[index].price}</h2>
           <div className="my-5">
-          <p className="text-white text-lg">quantity</p>
+            <p className="text-white text-lg">quantity</p>
           </div>
           <div className="my-10">
-          <p className="text-white text-xl">{item[index].description}</p>
+            <p className="text-white text-xl">{item[index].description}</p>
           </div>
           <div className="m-5">
             <p className="mx-auto p-4 bg-navy sm:w-1/3 md:w-1/2 lg:w-80 text-center text-white rounded-3xl text-xl hover:shadow-lg hover:shadow-lime">
               Add to Cart
             </p>
           </div>
-          <AccordionMenu/>
+          <AccordionDataProvider>
+            <AccordionMenu />
+          </AccordionDataProvider>
         </div>
       </div>
     </div>

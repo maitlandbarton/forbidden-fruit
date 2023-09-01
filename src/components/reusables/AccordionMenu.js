@@ -1,19 +1,27 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { AccordionDataContext } from "../../context/AccordionDataContext";
 
 function AccordionMenu() {
-  const [isHidden, setIsHidden] = useState(true);
+  const { menuItems } = useContext(AccordionDataContext);
 
-  function toggleMenu() {
-    if (isHidden) {
-      setIsHidden(false);
-    } else {
-      setIsHidden(true);
-    }
-  }
+  const [activeIndex, setActiveIndex] = useState(null);
+
+  const handleClick = (index) => {
+    setActiveIndex(index === activeIndex ? null : index);
+  };
 
   return (
     <div>
-        <h1>Accordion menu coming soon!</h1>
+      {menuItems.map((item, index) => (
+        <div key={index}>
+          <button onClick={() => handleClick(index)}>
+            {item.title}
+          </button>
+          {activeIndex === index && (
+            <div>{item.content}</div>
+          )}
+        </div>
+      ))}
     </div>
   );
 }
