@@ -31,7 +31,7 @@ function ItemDescription({ id }) {
             </p>
           </div>
           <AccordionDataProvider>
-            <AccordionMenu />
+            <AccordionMenu props={item}/>
           </AccordionDataProvider>
         </div>
       </div>

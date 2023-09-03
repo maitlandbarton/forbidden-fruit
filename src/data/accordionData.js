@@ -1,17 +1,44 @@
+
+
 export const accordionData = [
     {
+        id: 0,
+        title: "Materials",
+        content: [
+            {
+                id: 0,
+                text: "hoop art materials"
+            },
+            {
+                id: 1,
+                text: "sticker materials"
+            },
+            {
+                id: 2,
+                text: "pdf guide materials"
+            },
+        ]
+    },
+    {
         id: 1,
-        title: "Section 1",
-        content: "these are the contents for section 1"
-    },
-    {
-        id: 2,
-        title: "Section 2",
-        content: "these are the contents for section 2"
-    },
-    {
-        id: 3,
-        title: "Section 3",
-        content: "these are the contents for section 3"
+        title: "Shipping & Refund Policy",
+        content: [
+            {
+                id: 0,
+                text: "All sales are final"
+            },
+            {
+                id: 1,
+                text: "In the case that the product arrives damaged, please contact me to arrange a replacement."
+            },
+            {
+                id: 2,
+                text: "I currently ship to the EU, UK, US, Canada."
+            },
+            {
+                id: 3,
+                text: "If your country is not listed, send me an email and we can try to arrange something :)"
+            },
+        ]
     }
 ]
